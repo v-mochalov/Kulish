@@ -1,0 +1,578 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"flex",
+				"flex-direction\tproperty"
+			],
+			[
+				"u",
+				"url()\tbackground-image"
+			],
+			[
+				"ba",
+				"background-image\tproperty"
+			],
+			[
+				"lh",
+				"line-height\tproperty"
+			],
+			[
+				"fo",
+				"font-weight\tproperty"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"txa",
+				"text-align\tproperty"
+			],
+			[
+				"max-",
+				"max-height\tproperty"
+			],
+			[
+				"maw",
+				"max-width\tproperty"
+			],
+			[
+				"text",
+				"text-transform\tproperty"
+			],
+			[
+				"lisst",
+				"list-style\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"te",
+				"text-transform\tproperty"
+			],
+			[
+				"paddi",
+				"padding\tproperty"
+			],
+			[
+				"d",
+				"display\tproperty"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"f",
+				"flex\tdisplay"
+			],
+			[
+				"mg",
+				"margin-left\tproperty"
+			],
+			[
+				"r",
+				"right\ttext-align"
+			],
+			[
+				"a",
+				"auto\tpadding"
+			],
+			[
+				"marg",
+				"margin\tproperty"
+			],
+			[
+				"flex-",
+				"flex-direction\tproperty"
+			],
+			[
+				"padd",
+				"padding-top\tproperty"
+			],
+			[
+				"margin",
+				"margin\tproperty"
+			],
+			[
+				"mar",
+				"margin-left\tproperty"
+			],
+			[
+				"tra",
+				"transition\tproperty"
+			],
+			[
+				"align",
+				"align-items\tproperty"
+			],
+			[
+				"sp",
+				"space-between\tjustify-content"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"bxs",
+				"box-sizing\tproperty"
+			],
+			[
+				"bcolo",
+				"background-color\tproperty"
+			],
+			[
+				"list",
+				"list-style\tproperty"
+			],
+			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
+				"border",
+				"border-width\tproperty"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"box",
+				"box-sizing\tproperty"
+			],
+			[
+				"margi",
+				"margin-left\tproperty"
+			],
+			[
+				"paddin",
+				"padding-left\tproperty"
+			],
+			[
+				"in",
+				"inline-block\tdisplay"
+			],
+			[
+				"pa",
+				"padding-top\tproperty"
+			],
+			[
+				"pos",
+				"position\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"h",
+				"h1\tTag"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"col",
+				"color\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Projects/Tesla/index.html",
+			"settings":
+			{
+				"buffer_size": 2500,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "$(function(){\n\n\n\n\n\n});",
+			"file": "/C/Projects/Tesla/js/main.js",
+			"file_size": 20,
+			"file_write_time": 132100872679063689,
+			"settings":
+			{
+				"buffer_size": 22,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Projects/Tesla/css/style.css",
+			"settings":
+			{
+				"buffer_size": 2280,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Projects/Tesla/css/fonts.css",
+			"settings":
+			{
+				"buffer_size": 1323,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"page",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 216.0,
+		"history":
+		[
+			"ls",
+			":q",
+			";q",
+			"q",
+			"node version",
+			"node -v"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Projects/scss-gulp",
+		"/C/Projects/Tesla",
+		"/C/Projects/Tesla/css",
+		"/C/Projects/Tesla/js"
+	],
+	"file_history":
+	[
+		"/C/Projects/Tesla/css/normilize.css",
+		"/C/Projects/scss-gulp/build/main.css",
+		"/C/Projects/scss-gulp/package.json",
+		"/C/Projects/scss-gulp/index.html",
+		"/C/Projects/scss-gulp/gulpfile.js",
+		"/C/Projects/scss-gulp/build/style.css",
+		"/C/Projects/scss-gulp/css/style.css",
+		"/C/Projects/scss-gulp/project.sublime-project",
+		"/C/Users/Jarrar/Desktop/Программирование/БЭМ/css/style.scss",
+		"/C/Users/Jarrar/Desktop/Программирование/БЭМ/BEM.html",
+		"/C/Users/Jarrar/Desktop/Программирование/БЭМ/css/style.css",
+		"/C/Users/Jarrar/AppData/Roaming/Sublime Text 3/Packages/User/eCSStractor.sublime-settings",
+		"/C/Users/Jarrar/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Jarrar/AppData/Roaming/Sublime Text 3/Packages/eCSStractor/Default (Windows).sublime-keymap",
+		"/C/Users/Jarrar/AppData/Roaming/Sublime Text 3/Packages/eCSStractor/eCSStractor.sublime-settings",
+		"/C/Users/Jarrar/Downloads/icons8-лист-марихуаны-100.png",
+		"/C/Users/Jarrar/Desktop/Программирование/Макет 1/index.html",
+		"/C/Users/Jarrar/Desktop/Программирование/Макет 1/style.css",
+		"/C/Users/Jarrar/Desktop/Программирование/Макет 1/script.js",
+		"/C/Users/Jarrar/Desktop/Active-Box/index.html",
+		"/C/Users/Jarrar/Desktop/Active-Box/css/style.css",
+		"/C/Users/Jarrar/Desktop/activebox/style.css",
+		"/C/Users/Jarrar/Desktop/activebox/index.html",
+		"/C/Users/Jarrar/Desktop/index.html",
+		"/C/Users/Jarrar/Desktop/Макет/css/style.css",
+		"/C/Users/Jarrar/Desktop/Макет/index.html",
+		"/C/Users/Jarrar/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/Users/Jarrar/Desktop/Новая папка/CSS/style.css",
+		"/C/Users/Jarrar/Desktop/Новая папка/index.html"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Projects/Tesla/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2500,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2169,
+								2169
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "html",
+							"buffer_scroll_name": "6fc889aa",
+							"spell_check": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 936.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Projects/Tesla/js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14,
+								14
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "javascript",
+							"buffer_scroll_name": "f52fa78d",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Projects/Tesla/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2280,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2018,
+								2018
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "css",
+							"buffer_scroll_name": "3be94cfe",
+							"spell_check": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1748.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Projects/Tesla/css/fonts.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1323,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1025,
+								1042
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "css",
+							"buffer_scroll_name": "6e6dfc7f",
+							"spell_check": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 40.8
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sublime.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Новая папка\\CSS\\style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 247.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

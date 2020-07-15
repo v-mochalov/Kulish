@@ -1,0 +1,446 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fo",
+				"font-weight\tproperty"
+			],
+			[
+				"ba",
+				"background\tproperty"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"txa",
+				"text-align\tproperty"
+			],
+			[
+				"max-",
+				"max-height\tproperty"
+			],
+			[
+				"maw",
+				"max-width\tproperty"
+			],
+			[
+				"text",
+				"text-transform\tproperty"
+			],
+			[
+				"lisst",
+				"list-style\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"u",
+				"uppercase\ttext-transform"
+			],
+			[
+				"te",
+				"text-transform\tproperty"
+			],
+			[
+				"paddi",
+				"padding\tproperty"
+			],
+			[
+				"d",
+				"display\tproperty"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"flex",
+				"flex-wrap\tproperty"
+			],
+			[
+				"f",
+				"flex\tdisplay"
+			],
+			[
+				"mg",
+				"margin-left\tproperty"
+			],
+			[
+				"r",
+				"right\ttext-align"
+			],
+			[
+				"a",
+				"auto\tpadding"
+			],
+			[
+				"marg",
+				"margin\tproperty"
+			],
+			[
+				"flex-",
+				"flex-direction\tproperty"
+			],
+			[
+				"padd",
+				"padding-top\tproperty"
+			],
+			[
+				"margin",
+				"margin\tproperty"
+			],
+			[
+				"mar",
+				"margin-left\tproperty"
+			],
+			[
+				"tra",
+				"transition\tproperty"
+			],
+			[
+				"align",
+				"align-items\tproperty"
+			],
+			[
+				"sp",
+				"space-between\tjustify-content"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"bxs",
+				"box-sizing\tproperty"
+			],
+			[
+				"bcolo",
+				"background-color\tproperty"
+			],
+			[
+				"list",
+				"list-style\tproperty"
+			],
+			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
+				"border",
+				"border-width\tproperty"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"box",
+				"box-sizing\tproperty"
+			],
+			[
+				"margi",
+				"margin-left\tproperty"
+			],
+			[
+				"paddin",
+				"padding-left\tproperty"
+			],
+			[
+				"in",
+				"inline-block\tdisplay"
+			],
+			[
+				"pa",
+				"padding-top\tproperty"
+			],
+			[
+				"pos",
+				"position\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"h",
+				"h1\tTag"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"col",
+				"color\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "$base-color: #c6538c;\ngulp watch\n.menu{\n\n\tbackground: green;\n\tpadding: 10px;\n\tmargin: 10px;\n\n\t&__list{\n\t\tdisplay: flex;\n\t\tflex-wrap: wrap;\n\t}\n\n\t&__item{\n\n\t\t&--active,\n\t\t{\n\t\t\ttext-transform: uppercase;\n\t\t\tfont-weight: bold;\n\t\t}\n\n\t}\n\n\t&__link {\n\t\tcolor: $base-color; \n\t\tfont-size: 22px ;\n\t\tpadding: 10px;\n\t}\n\n\t&__footer{\n\t\tbackground: teal;\n\t\tbackground-color: red;\n\t}\n}",
+			"file": "src/scss/main.scss",
+			"file_size": 391,
+			"file_write_time": 132350642418892089,
+			"settings":
+			{
+				"buffer_size": 368,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"page",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 216.0,
+		"history":
+		[
+			"ls",
+			":q",
+			";q",
+			"q",
+			"node version",
+			"node -v"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Projects/scss-gulp/build/main.css",
+		"/C/Projects/scss-gulp/package.json",
+		"/C/Projects/scss-gulp/index.html",
+		"/C/Projects/scss-gulp/gulpfile.js",
+		"/C/Projects/scss-gulp/build/style.css",
+		"/C/Projects/scss-gulp/css/style.css",
+		"/C/Projects/scss-gulp/project.sublime-project",
+		"/C/Users/Jarrar/Desktop/Программирование/БЭМ/css/style.scss",
+		"/C/Users/Jarrar/Desktop/Программирование/БЭМ/BEM.html",
+		"/C/Users/Jarrar/Desktop/Программирование/БЭМ/css/style.css",
+		"/C/Users/Jarrar/AppData/Roaming/Sublime Text 3/Packages/User/eCSStractor.sublime-settings",
+		"/C/Users/Jarrar/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Jarrar/AppData/Roaming/Sublime Text 3/Packages/eCSStractor/Default (Windows).sublime-keymap",
+		"/C/Users/Jarrar/AppData/Roaming/Sublime Text 3/Packages/eCSStractor/eCSStractor.sublime-settings",
+		"/C/Users/Jarrar/Downloads/icons8-лист-марихуаны-100.png",
+		"/C/Users/Jarrar/Desktop/Программирование/Макет 1/index.html",
+		"/C/Users/Jarrar/Desktop/Программирование/Макет 1/style.css",
+		"/C/Users/Jarrar/Desktop/Программирование/Макет 1/script.js",
+		"/C/Users/Jarrar/Desktop/Active-Box/index.html",
+		"/C/Users/Jarrar/Desktop/Active-Box/css/style.css",
+		"/C/Users/Jarrar/Desktop/activebox/style.css",
+		"/C/Users/Jarrar/Desktop/activebox/index.html",
+		"/C/Users/Jarrar/Desktop/index.html",
+		"/C/Users/Jarrar/Desktop/Макет/css/style.css",
+		"/C/Users/Jarrar/Desktop/Макет/index.html",
+		"/C/Users/Jarrar/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/Users/Jarrar/Desktop/Новая папка/CSS/style.css",
+		"/C/Users/Jarrar/Desktop/Новая папка/index.html"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/scss/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 368,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								92,
+								92
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "426d3f86",
+							"spell_check": false,
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 40.8
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "project.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Новая папка\\CSS\\style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 247.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
