@@ -95,7 +95,7 @@ input {
       font-size: calc(35px + 40 * ((100vw - 320px) / (1170 - 320)));
       line-height: 72px;
       letter-spacing: 0.03em;
-      color: rgba(0, 0, 0, 0.3); }
+      color: rgba(0, 0, 0, 0.5); }
       @media (min-width: 1170px) {
         .header__title-title {
           font-size: 75px; } }
