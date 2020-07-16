@@ -1,0 +1,136 @@
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+
+// Large tablets and desktops
+$screen-xl-min: 1366px;
+
+// Large tablets and desktops
+$screen-xxl-min: 1680px;
+
+// Small devices
+@mixin sm {
+  @media only screen and (min-width: #{$screen-sm-min}) {
+    @content;
+  }
+}
+
+// Medium devices
+@mixin md {
+  @media only screen and (min-width: #{$screen-md-min}) {
+    @content;
+  }
+}
+
+// Large devices
+@mixin lg {
+  @media only screen and (min-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+
+// Extra large devices
+@mixin xl {
+  @media only screen and (min-width: #{$screen-xl-min}) {
+    @content;
+  }
+}
+
+// Extra extra large devices
+@mixin xxl {
+  @media only screen and (min-width: #{$screen-xxl-min}) {
+    @content;
+  }
+}
+
+// Custom devices
+@mixin rwd($screen) {
+  @media (min-width: $screen+'px') {
+    @content;
+  }
+}
+
+@mixin retina {
+  @media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx) {
+    @content;
+  }
+}
+
+// Desktop First
+
+// Small smartphones
+$screen-xs-max: 400px;
+
+// Small tablets and large smartphones (landscape view)
+$screen-sm-max: 575px;
+
+// Small tablets (portrait view)
+$screen-md-max: 767px;
+
+// Tablets and small desktops
+$screen-lg-max: 991px;
+
+// Large tablets and desktops
+$screen-xl-max: 1365px;
+
+// Large tablets and desktops
+$screen-xxl-max: 1679px;
+
+// Extra Small devices
+@mixin xs-d {
+  @media only screen and (max-width: #{$screen-xs-max}) {
+    @content;
+  }
+}
+
+// Small devices
+@mixin sm-d {
+  @media only screen and (max-width: #{$screen-sm-max}) {
+    @content;
+  }
+}
+
+// Medium devices
+@mixin md-d {
+  @media only screen and (max-width: #{$screen-md-max}) {
+    @content;
+  }
+}
+
+// Large devices
+@mixin lg-d {
+  @media only screen and (max-width: #{$screen-lg-max}) {
+    @content;
+  }
+}
+
+// Extra large devices
+@mixin xl-d {
+  @media only screen and (max-width: #{$screen-xl-max}) {
+    @content;
+  }
+}
+
+// Extra extra large devices
+@mixin xxl-d {
+  @media only screen and (max-width: #{$screen-xxl-max}) {
+    @content;
+  }
+}
+
+// Custom devices
+@mixin rwd-d($screen) {
+  @media (max-width: $screen+'px') {
+    @content;
+  }
+}
