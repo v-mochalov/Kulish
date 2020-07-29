@@ -1,0 +1,5 @@
+@mixin fsz($l, $s){
+   font-size: calc($l + $s * ((100vw - 320px) / (1170 - 320)));
+   
+}
+

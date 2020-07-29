@@ -1,16 +1,29 @@
+<!--Солбщаем браузеру как стоить обрабатывать эту страницу-->
 <!DOCTYPE html>
+<!--Оболочка элемента, указываем язык содержимого-->
 <html lang="ru">
+<!--Заголовок страницы, контейнер для других важных данных-->
 
 <head>
+	<!--Кодировка HTML-->
 	<meta charset="UTF-8">
+	<!--Мета тег для оптимизации под мобильные устройства-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-	<title>KulishOlga</title>
+	<!--Заголовок страницы в браузере-->
+	<title>Title</title>
+	<!--Подключение шрифтов-->
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Roboto&display=swap"
 		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
+	<!--Подключение сбрасывающих стилей-->
 	<link rel="stylesheet" href="build/normalize.css">
+	<!--Подключение CSS-->
 	<link rel="stylesheet" href="build/main.css">
 
 </head>
+
+
+<!--Отображаемое тело страницы-->
 
 <body>
 
@@ -18,72 +31,64 @@
 
 	<header class="header">
 
-		<div class="container">
-
-			<div class="header__menu">
-
-				<div class="header__logo">
-					<a href="/" class="header__logo-link">
-						<img src="./img/svg/logo.svg" alt="logo" class="header__logo-img">
-					</a>
-				</div>
-
-				<nav class="header__nav">
-					<ul class="header__nav-list">
-						<li class="header__nav-item">
-							<a href="#" class="header__nav-link">Главная</a>
-						</li>
-						<li class="header__nav-item">
-							<a href="#present" class="header__nav-link">Обо мне</a>
-						</li>
-						<li class="header__nav-item">
-							<a href="#project" class="header__nav-link">Проекты</a>
-						</li>
-						<li class="header__nav-item">
-							<a href="#price" class="header__nav-link">Отзывы </a>
-						</li>
-						<li class="header__nav-item">
-							<a href="#contacts" class="header__nav-link">Контакты</a>
-						</li>
-					</ul>
-				</nav>
-
-				<div class="header__contacts">
-					<a class="header__phone" href="tel:380504483027">+38 (050) 448-30-27</a>
-				</div>
-			</div>
-
-		</div>
 
 
-
-		<section class="header__title">
-
-			<div class="header__title-slogan">
-				стильный интерьер от идеи до реализации
-			</div>
-
-			<div class="header__title-title">
-				Дизайн-студия
-			</div>
-
-			<div class="header__title-name">
-				Ольги Кулиш
-			</div>
-
-
-		</section>
-
+		<nav class="header__menu">
+			<ul class="header__nav-list">
+				<li class="header__nav-item">
+					<a href="#" class="header__nav-link">Главная</a>
+				</li>
+				<li class="header__nav-item">
+					<a href="#present" class="header__nav-link">Обо мне</a>
+				</li>
+				<li class="header__nav-item">
+					<a href="#project" class="header__nav-link">Проекты</a>
+				</li>
+				<li class="header__nav-item">
+					<a href="#price" class="header__nav-link">Отзывы </a>
+				</li>
+				<li class="header__nav-item">
+					<a href="#contacts" class="header__nav-link">Контакты</a>
+				</li>
+			</ul>
+		</nav>
 
 
 
 	</header>
 
+	<!--INTRO-->
+
+	<main class="intro">
+
+		<div class="header__logo">
+			<a href="/" class="header__logo-link">
+				<img src="./img/svg/logo.svg" alt="logo" class="header__logo-img">
+			</a>
+		</div>
+
+		<div class="header__contacts">
+			<a class="header__phone" href="tel:380504483027">+38 (050) 448-30-27</a>
+		</div>
+
+		<div class="container intro__container">
+			<div class="intro__slogan">
+				стильный интерьер от идеи до реализации
+			</div>
+
+			<div class="intro__title">
+				Дизайн-студия
+			</div>
+
+			<div class="intro__name">
+				Ольги Кулиш
+			</div>
+		</div>
+
+	</main>
 
 
 	<!--PRESENT-->
-
-
 
 	<section class="present" id="present">
 		<div class="container">
@@ -115,9 +120,6 @@
 						<a href="tel:380504483027" class="present__text-btn-link">Связаться со мной</a>
 					</div>
 
-
-						<a class="btn present__text-btn" href="tel:380504483027" class="present__text-btn-link">Связаться со мной</a>
-
 				</div>
 
 				<div class="present__photo">
@@ -133,15 +135,17 @@
 
 
 
-	<!--      Quote       -->
+	<!--QUOTE-->
 
 	<section class="quote" id="quote">
 
 		<div class="quote__wrapper">
 
-			<div class="quote__quote">
-				<span>"</span>Хороший дизайн виден сразу.<p class="quote__quote-two">Отличный дизайн незаметен.
-					<span>"</span></p>
+			<div class="quote__text">
+				<span class="quotes-1"><img src="/img/svg/quotes-1.png" alt=""></span>Хороший дизайн виден сразу.<p
+					class="quote__text-two">
+					Отличный дизайн незаметен.
+					<span class="quotes-2"><img src="/img/svg/quotes-2.png" alt=""></span></p>
 			</div>
 
 			<div class="quote__author">
@@ -155,7 +159,7 @@
 
 
 
-	<!--     PROJECT      -->
+	<!--PROJECT-->
 
 	<div class="container">
 		<div class="project__title">
@@ -165,6 +169,7 @@
 
 
 	<section class="project" id="project">
+
 
 		<div class="project__content">
 			<div class="project__container">
@@ -176,11 +181,7 @@
 						основное
 						желание - уютная, светлая квартира, с отдельными рабочими и спальными местами. </div>
 					<div class="project__body-style"><span>Стиль</span>: скандинавский.</div>
-					<div class="project__body-button">
-						<div class="button project__body-btn">
-							<a href="#" class="project__body-link">Больше работ</a>
-						</div>
-					</div>
+
 				</div>
 			</div>
 		</div>
@@ -196,11 +197,15 @@
 
 	</section>
 
+	<div class="container">
+		<div class="button project__button">
+			<a href="#" class="button-link">Больше работ</a>
+		</div>
+	</div>
 
 
 
-
-	<!--      PRICE      -->
+	<!--PRICE-->
 
 	<section class="price" id="price">
 		<div class="container">
@@ -208,10 +213,10 @@
 
 			<div class="price__body">
 
-				<div class="price__list">
+				<div class="price__list price__list-first">
 					<div class="price__list-title">Старт</div>
 					<div class="price__list-value">13$</div>
-					<ul class="price__list-list">
+					<ul class="price__list-list price__list-wrapp">
 						<li class="price__list-item">Проведение обмеров</li>
 						<li class="price__list-item">Планировка</li>
 						<li class="price__list-item">Рабочий проект</li>
@@ -219,7 +224,7 @@
 
 					</ul>
 
-					<div class="button price__btn">
+					<div class="button price__button price__button-first ">
 						<a href="#" class="button-link"><b>Заказать проект</b></a>
 					</div>
 				</div>
@@ -234,12 +239,12 @@
 						<li class="price__list-item">Составление ТЗ</li>
 						<li class="price__list-item">3-d визуализация</li>
 					</ul>
-					<div class="button price__btn">
+					<div class="button price__button">
 						<a href="#" class="button-link"><b>Заказать проект</b></a>
 					</div>
 				</div>
 
-				<div class="price__list">
+				<div class="price__list price__list-lg">
 					<div class="price__list-title">Эксклюзив</div>
 					<div class="price__list-value">28$</div>
 					<ul class="price__list-list">
@@ -249,7 +254,7 @@
 						<li class="price__list-item">Составление ТЗ</li>
 						<li class="price__list-item">3-d визуализация</li>
 					</ul>
-					<div class="button price__btn">
+					<div class="button price__button price__button-choose">
 						<a href="#" class="button-link"><b>Заказать проект</b></a>
 					</div>
 				</div>
@@ -264,7 +269,7 @@
 						<li class="price__list-item">Предметное наполнение</li>
 						<li class="price__list-item">3-d визуализация</li>
 					</ul>
-					<div class="button price__btn">
+					<div class="button price__button">
 						<a href="#" class="button-link"><b>Заказать проект</b></a>
 					</div>
 				</div>
@@ -281,7 +286,7 @@
 
 	<section class="contacts" id="contacts">
 
-		<div class="container">
+		<div class="container contacts__container">
 
 			<div class="contacts__title">Контакты</div>
 
@@ -332,11 +337,20 @@
 
 				</ul>
 
+				<div class="contacts__background"></div>
 
 			</div>
+
+
+
 		</div>
 	</section>
 
+
+
+
+
+	<script src="js/script.js"></script>
 
 </body>
 

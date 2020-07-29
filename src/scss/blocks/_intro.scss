@@ -1,0 +1,56 @@
+.intro {
+   background: url(/img/title.jpg) no-repeat;
+   background-position: center;
+   height: 100vh;
+   background-size: cover;
+   
+   
+ 
+   &__container{
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;	
+     align-items: center;
+     padding-top: 340px;
+   }
+ 
+   &__slogan{   
+      //  font-size: 18px;
+       font-size: calc(12px + 6 * ((100vw - 320px) / (1170 - 320)));
+       line-height: 96%;
+       letter-spacing: 0.03em;
+       color: #000000;
+       margin-bottom: 6px;
+   }
+   &__title{
+       align-items: center;	
+      //  font-size: 75px;
+       font-size: calc(35px + 40 * ((100vw - 320px) / (1170 - 320)));       line-height: 96%;
+       letter-spacing: 0.03em;
+       margin-bottom: 6px;
+       color: rgba(0, 0, 0, 0.3);
+   }
+   &__name{
+     font-style: normal;
+       font-weight: normal;
+      //  font-size: 70px;
+       font-size: calc(35px + 35 * ((100vw - 320px) / (1170 - 320)));
+       line-height: 96%;
+       letter-spacing: 0.03em;
+       color: rgba(0, 0, 0, 0.7);
+   }
+ }
+
+ @include xl {
+   .intro{
+     &__slogan{
+       font-size: 18px;
+    }
+    &__title{
+      font-size: 75px;
+    }
+    &__name{
+      font-size: 70px;
+    }
+   }
+ }

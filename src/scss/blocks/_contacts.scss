@@ -1,0 +1,148 @@
+.contacts {
+   margin-bottom: 80px;
+
+   &__container{
+     
+   }
+ 
+   &__title {
+     font-size: calc(45px + 15 * ((100vw - 320px) / (1170 - 320)));
+     // font-size: 60px;
+     line-height: 98%;
+     letter-spacing: 0.03em;
+     color: rgba(0, 0, 0, 0.7);
+ 
+     @media (min-width: 1170px) {
+       font-size: 60px;
+     }
+   }
+ 
+   &__wrapper {
+     position: relative;
+     display: grid;
+     grid-template-columns: 50% 50%;
+   }
+ 
+   &__form {
+     margin-top: 85px;
+     padding-right: 110px;
+     display: flex;
+     flex-direction: column;
+ 
+     &-border {
+       margin-bottom: 20px;
+       padding-left: 30px;
+       font-size: 18px;
+       line-height: 98%;
+       border: 1px solid #EBC3B6;
+       height: 71px;
+       width: 100%;
+     }
+ 
+     &-border-message {
+       height: 116px;
+       margin-bottom: 50px;
+     }
+ 
+   }
+ 
+   &__list {
+     background: rgba(223, 182, 169, 0.2);
+     display: flex;     
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     z-index: 5;
+ 
+     &-item {
+       margin-bottom: 20px;
+     }
+ 
+     &-link {
+       padding-left: 60px;
+       position: relative;
+       text-decoration: none;
+       font-size: 16px;
+       line-height: 0px;
+       color: black;
+     }
+ 
+     &-link p {
+       padding-left: 60px;
+     }
+ 
+     &-phone::before {
+       display: block;
+       position: absolute;
+       content: url(/img/svg/phone.svg);
+       left: 0;
+       top: 5px;
+     }
+ 
+     &-mail::before {
+       display: block;
+       position: absolute;
+       content: url(/img/svg/mail.svg);
+       left: 0;
+       top: 5px;
+     }
+ 
+     &-inst::before {
+       display: block;
+       position: absolute;
+       content: url(/img/svg/inst.svg);
+       left: -5px;
+       top: 5px;
+     }
+ 
+     &-fb::before {
+       display: block;
+       position: absolute;
+       content: url(/img/svg/fb.svg);
+       left: 0;
+       top: 5px;
+     }
+   }
+
+   &__background{
+    position: absolute;
+    padding-left: 600px;
+    background: rgba(223, 182, 169, 0.2);
+    left: 100%;         
+    width: 100%;
+    height: 100%;
+  }
+ 
+ 
+   @media (max-width: 767px) {
+ 
+     &__wrapper {
+       grid-template-columns: 1fr;
+     }
+ 
+     &__form {
+       width: 100%;
+       padding-right: 25px;
+       margin-left: 15px;
+       margin-right: 15px;
+     }
+ 
+     &__list {
+       position: static;
+       width: inherit;
+       margin-top: 50px;      
+       padding: 20px;
+       align-items: center;
+     }
+
+     &__list-item{
+
+     }
+
+     &__background{
+       display: none;
+     }
+   }
+
+  
+ }

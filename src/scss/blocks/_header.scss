@@ -1,0 +1,85 @@
+.header {
+  position: fixed;
+  top: 0;
+	left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  transition: .3s linear;
+  padding-bottom: 20px;
+
+  &__active{
+    margin-top: -30px;
+    background: rgb(194, 186, 184);
+  }  
+
+  &__logo{
+    position: absolute;
+    top: 40px;
+    left: 50px;
+  } 
+
+  &__menu{
+    padding-top: 51px;
+    text-align: center;    
+  }
+
+  &__nav-list{
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__nav-item{
+    margin-right: 27px;    
+  }
+
+  &__nav-item:last-child{
+    margin-right: 0px;
+  }
+
+  &__nav-link{
+    font-size: 18px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.7);        
+  }
+
+  &__nav-link:hover{
+    border-bottom: 2px solid #E2A896;    
+  }
+
+  &__contacts{
+    position: absolute;    
+    top: 50px;
+    right: 50px;
+  }
+  
+  &__phone{   
+    
+    font-weight: 500;
+		font-size: 16px;
+		line-height: 20px;
+		color: rgba(0, 0, 0, 0.8);
+  }
+
+ 
+ 
+ 
+ 
+}
+
+@include lg-d{
+
+  .header{
+
+   &__logo{
+    display: none;}
+
+   &__contacts{
+     display: none;
+   }
+}
+
+}
